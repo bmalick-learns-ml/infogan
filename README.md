@@ -1,6 +1,6 @@
 # InfoGAN
 
-Original paper: [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets]()
+Original paper: [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets](https://arxiv.org/abs/1606.03657)
 
 Here, the objective function of the classical GAN:
 
