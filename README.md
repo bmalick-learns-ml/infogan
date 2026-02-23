@@ -16,7 +16,7 @@ $$
 
 Classical GAN does not impose restrictions on how noise is used by the generator.
 
-This paper proposed to use new inputs (concatenations):
+This paper proposed to use new inputs (concatenation):
 - noise
 - latent code which target structured sematic features. For example, in case of MNIST dataset, features can be the orientation or the thickness of the digits.
 
