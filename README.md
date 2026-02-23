@@ -29,12 +29,14 @@ Mutual information $I(X,Y)$ measures the amout of information learned from knowl
 $$I(X,Y)=H(X) - H(X|Y) = H(Y) - H(Y|X)$$
 $H$ being entropy.
 
-Thanks to mutual information lower bound ($L_I(G,Q)$), the information-regularized minimax game becomes:
+Thanks to mutual information lower bound $L_I(G,Q)$, the information-regularized minimax game becomes:
 
-$$
+```math
 \min_{G,Q} \max_D V_{\text{InfoGAN}}(D, G, Q) = V(G,D) - \lambda L_I(G,Q)
-$$
+```
+
 $Q(c|x)$ being an auxiliary distribution to approximate $p(c|x)$.
+
 
 
 
