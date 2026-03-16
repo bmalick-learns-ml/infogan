@@ -7,7 +7,6 @@ from torch import nn
 import torchvision.transforms as T
 from torch.nn import functional as F
 from torchvision.utils import make_grid
-from torchvision.utils import make_grid
 
 def init_weights(w):
     if isinstance(w, (nn.Linear, nn.Conv2d, nn.ConvTranspose2d)):
